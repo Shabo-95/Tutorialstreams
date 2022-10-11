@@ -1,0 +1,24 @@
+.p-organizationchart .p-organizationchart-node-content {
+    padding: 0;
+    border: 0;
+}
+
+.node-header {
+    background-color: #495ebb;
+    color: #ffffff;
+}
+
+.node-content {
+    text-align: center;
+    border: 1px solid #495ebb;
+}
+
+.node-hover {
+    transition: all 0.3s ease-in-out;
+}
+
+.node-hover:hover {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+}
